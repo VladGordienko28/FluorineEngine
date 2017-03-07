@@ -1,0 +1,8 @@
+BEGIN_RESOURCE FBitmap BCat
+    FileName = "BCat.bmp"
+    Group = "Stuff"
+    UBits = 8
+    VBits = 8
+    Saturation = 1.0000
+    AnimSpeed = 30.0000
+END_RESOURCE

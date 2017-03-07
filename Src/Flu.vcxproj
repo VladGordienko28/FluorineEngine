@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{628C8F01-7C17-42C9-9DCC-1377E6202EFB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Flu</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\Build</OutDir>
+    <IntDir>.\Build\$(Configuration)_Flu\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>.\Build</OutDir>
+    <IntDir>.\Build\$(Configuration)_Flu\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio\OpenAL\al.h" />
+    <ClInclude Include="Audio\OpenAL\alc.h" />
+    <ClInclude Include="Audio\OpenAL\alctypes.h" />
+    <ClInclude Include="Audio\OpenAL\altypes.h" />
+    <ClInclude Include="Audio\OpenAL\alu.h" />
+    <ClInclude Include="Audio\OpenAL\alut.h" />
+    <ClInclude Include="Audio\OpenAL\FrALAudio.h" />
+    <ClInclude Include="Audio\OpenAL\OpenALAud.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\FrAnim.h" />
+    <ClInclude Include="Engine\FrApp.h" />
+    <ClInclude Include="Engine\FrArray.h" />
+    <ClInclude Include="Engine\FrAudio.h" />
+    <ClInclude Include="Engine\FrBase.h" />
+    <ClInclude Include="Engine\FrBitmap.h" />
+    <ClInclude Include="Engine\FrBlock.h" />
+    <ClInclude Include="Engine\FrBuild.h" />
+    <ClInclude Include="Engine\FrClass.h" />
+    <ClInclude Include="Engine\FrCode.h" />
+    <ClInclude Include="Engine\FrCollHash.h" />
+    <ClInclude Include="Engine\FrColor.h" />
+    <ClInclude Include="Engine\FrCom.h" />
+    <ClInclude Include="Engine\FrComTyp.h" />
+    <ClInclude Include="Engine\FrDemoEff.h" />
+    <ClInclude Include="Engine\FrEncode.h" />
+    <ClInclude Include="Engine\FrEntity.h" />
+    <ClInclude Include="Engine\FrEvent.h" />
+    <ClInclude Include="Engine\FrExpImp.h" />
+    <ClInclude Include="Engine\FrFile.h" />
+    <ClInclude Include="Engine\FrFont.h" />
+    <ClInclude Include="Engine\FrGFX.h" />
+    <ClInclude Include="Engine\FrIni.h" />
+    <ClInclude Include="Engine\FrInput.h" />
+    <ClInclude Include="Engine\FrLevel.h" />
+    <ClInclude Include="Engine\FrLog.h" />
+    <ClInclude Include="Engine\FrMath.h" />
+    <ClInclude Include="Engine\FrObject.h" />
+    <ClInclude Include="Engine\FrOpCode.h" />
+    <ClInclude Include="Engine\FrPath.h" />
+    <ClInclude Include="Engine\FrPhysEng.h" />
+    <ClInclude Include="Engine\FrProject.h" />
+    <ClInclude Include="Engine\FrRand.h" />
+    <ClInclude Include="Engine\FrRender.h" />
+    <ClInclude Include="Engine\FrRes.h" />
+    <ClInclude Include="Engine\FrScript.h" />
+    <ClInclude Include="Engine\FrSerial.h" />
+    <ClInclude Include="Engine\FrStaMem.h" />
+    <ClInclude Include="Engine\FrString.h" />
+    <ClInclude Include="Game\FrConsole.h" />
+    <ClInclude Include="Game\FrGame.h" />
+    <ClInclude Include="Game\FrJoy.h" />
+    <ClInclude Include="Game\Game.h" />
+    <ClInclude Include="Game\Res\resource.h" />
+    <ClInclude Include="Render\OpenGL\FrGLExt.h" />
+    <ClInclude Include="Render\OpenGL\FrGLRender.h" />
+    <ClInclude Include="Render\OpenGL\FrGLShader.h" />
+    <ClInclude Include="Render\OpenGL\glext.h" />
+    <ClInclude Include="Render\OpenGL\OpenGLRend.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio\OpenAL\FrALAudio.cpp" />
+    <ClCompile Include="Engine\FrAI.cpp" />
+    <ClCompile Include="Engine\FrAnim.cpp" />
+    <ClCompile Include="Engine\FrApp.cpp" />
+    <ClCompile Include="Engine\FrAudio.cpp" />
+    <ClCompile Include="Engine\FrBitmap.cpp" />
+    <ClCompile Include="Engine\FrClass.cpp" />
+    <ClCompile Include="Engine\FrCode.cpp" />
+    <ClCompile Include="Engine\FrCollision.cpp" />
+    <ClCompile Include="Engine\FrComBas.cpp" />
+    <ClCompile Include="Engine\FrCnvPrim.cpp" />
+    <ClCompile Include="Engine\FrEncode.cpp" />
+    <ClCompile Include="Engine\FrHUD.cpp" />
+    <ClCompile Include="Engine\FrInput.cpp" />
+    <ClCompile Include="Engine\FrThings.cpp" />
+    <ClCompile Include="Engine\FrCore.cpp" />
+    <ClCompile Include="Engine\FrBlock.cpp" />
+    <ClCompile Include="Engine\FrDemoEff.cpp" />
+    <ClCompile Include="Engine\FrEmit.cpp" />
+    <ClCompile Include="Engine\FrFont.cpp" />
+    <ClCompile Include="Engine\FrGFX.cpp" />
+    <ClCompile Include="Engine\FrLevel.cpp" />
+    <ClCompile Include="Engine\FrLogic.cpp" />
+    <ClCompile Include="Engine\FrMath.cpp" />
+    <ClCompile Include="Engine\FrModel.cpp" />
+    <ClCompile Include="Engine\FrObject.cpp" />
+    <ClCompile Include="Engine\FrPath.cpp" />
+    <ClCompile Include="Engine\FrPhysEng.cpp" />
+    <ClCompile Include="Engine\FrPhysic.cpp" />
+    <ClCompile Include="Engine\FrPortal.cpp" />
+    <ClCompile Include="Engine\FrProject.cpp" />
+    <ClCompile Include="Engine\FrRes.cpp" />
+    <ClCompile Include="Engine\FrScript.cpp" />
+    <ClCompile Include="Engine\FrSprite.cpp" />
+    <ClCompile Include="Engine\FrNative.cpp" />
+    <ClCompile Include="Engine\FrTest.cpp" />
+    <ClCompile Include="Game\FrConsole.cpp" />
+    <ClCompile Include="Game\FrGame.cpp" />
+    <ClCompile Include="Game\Main.cpp" />
+    <ClCompile Include="Render\OpenGL\FrGLRender.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game.ini" />
+    <None Include="GUI\Res\Consolas13.flf" />
+    <None Include="Render\OpenGL\Fragment.glsl" />
+    <None Include="Render\OpenGL\Vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Flu.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Game\Res\icon.ico" />
+    <Image Include="GUI\Res\Consolas13_0.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

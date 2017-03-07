@@ -1,0 +1,12 @@
+\Bin\..
+	All execution files, editor and game client.
+
+\Samples\..
+	Examples of demo can be open via editor.
+
+\Showcase\..
+	Set of final demos. Every demo launched via
+	appropriate bat file.
+
+\Src\..
+	Fluorine Engine source code.

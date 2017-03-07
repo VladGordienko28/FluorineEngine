@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{c8ad2af6-4e56-4b03-808e-35f29a667f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{9114bd13-5349-4b3c-aebb-05c154d29ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{2ddba597-749f-469d-9614-0121eca8ec59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{50fb7556-72a5-45df-b6ce-16d4fb3011b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{aca9f3bd-9372-48fa-ab26-d29fa2742181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{8ad9d926-2054-4d3d-85f6-d96aee6560a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\OpenAL">
+      <UniqueIdentifier>{56598f81-acc1-4216-a4c9-43acb8e2f55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\OpenGL">
+      <UniqueIdentifier>{1f12290e-f78c-468d-ac5d-e6938db817e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{70ecf1d2-c040-4b56-8fcd-e73708cd564b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\OpenAL\AL">
+      <UniqueIdentifier>{c3726774-00fa-487a-a347-ac95b069f56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\OpenAL\Ogg">
+      <UniqueIdentifier>{d7c01156-5230-4834-9a52-9bc7e4f5f782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\OpenAL\Vorbis">
+      <UniqueIdentifier>{afaeae0f-1b48-41dc-9a00-b34e56f2f285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Res">
+      <UniqueIdentifier>{c00dce71-0648-456b-aedb-09e75f249d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Res">
+      <UniqueIdentifier>{8a92eaa2-5c26-403b-be12-e84cdca06451}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Editor\FrAnimPage.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrBitPage.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrCompiler.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrCSG.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrEdDlg.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrEditor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrEdMenu.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrEdTic.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrEdToolBar.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrFields.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrGraph.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrGUIRender.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrLevPage.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrPlayPage.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrProjExp.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrProjFile.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrResBrow.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrResImp.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrScriptPage.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrTileEd.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrUndoRedo.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\OpenAL\FrALAudio.cpp">
+      <Filter>Audio\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrAI.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrAnim.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrApp.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrAudio.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrBitmap.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrCnvPrim.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrCode.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrCollision.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrComBas.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrDemoEff.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrEmit.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrFont.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrGFX.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrInput.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrLevel.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrLogic.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrModel.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrNative.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrPath.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrPhysEng.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrPhysic.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrPortal.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrProject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrRes.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrScript.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrSprite.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrTest.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrThings.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FrButton.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FrEdit.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FrForm.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FrGuiBas.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FrList.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FrMenu.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FrSplit.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FrTabControl.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\OpenGL\FrGLRender.cpp">
+      <Filter>Render\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrObject.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrMath.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrEncode.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrCore.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrClass.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrBlock.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrHUD.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Main.cpp" />
+    <ClCompile Include="Editor\FrWatch.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrTask.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FrColDlg.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrResExp.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrHello.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrGamBld.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\FrGUIRes.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Editor\Editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrAnimPage.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrBitPage.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrEditor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrEdMenu.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrEdToolBar.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrEdUtil.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrFields.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrHello.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrKeyEdit.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrKeyword.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrLevPage.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrPage.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrPlayPage.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrProjExp.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrResBrow.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrScriptPage.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrTileEd.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrUndoRedo.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\FrALAudio.h">
+      <Filter>Audio\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\OpenALAud.h">
+      <Filter>Audio\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrAnim.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrApp.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrAudio.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrBitmap.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrCode.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrCollHash.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrCom.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrComTyp.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrDemoEff.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrEntity.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrFont.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrGFX.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrInput.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrLevel.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrPath.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrPhysEng.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrProject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrRender.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrRes.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrScript.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrButton.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrEdit.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrForm.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrGuiBas.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrGuiClr.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrList.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrMenu.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrNotify.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrSplit.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrTabControl.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrWidgets.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\OpenGL\FrGLRender.h">
+      <Filter>Render\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\OpenGL\FrGLShader.h">
+      <Filter>Render\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\OpenGL\glext.h">
+      <Filter>Render\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\OpenGL\OpenGLRend.h">
+      <Filter>Render\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\OpenGL\FrGLExt.h">
+      <Filter>Render\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrBase.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrArray.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrString.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrStaMem.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrSerial.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrRand.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrObject.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrMath.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrLog.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrIni.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrFile.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrExpImp.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrEncode.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrColor.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrClass.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrBuild.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrSplash.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrOpCode.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrMusPlay.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrBlock.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\al.h">
+      <Filter>Audio\OpenAL\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\alc.h">
+      <Filter>Audio\OpenAL\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\alctypes.h">
+      <Filter>Audio\OpenAL\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\altypes.h">
+      <Filter>Audio\OpenAL\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\alu.h">
+      <Filter>Audio\OpenAL\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\ogg\config_types.h">
+      <Filter>Audio\OpenAL\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\ogg\ogg.h">
+      <Filter>Audio\OpenAL\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\ogg\os_types.h">
+      <Filter>Audio\OpenAL\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\vorbis\codec.h">
+      <Filter>Audio\OpenAL\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\vorbis\vorbisenc.h">
+      <Filter>Audio\OpenAL\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenAL\vorbis\vorbisfile.h">
+      <Filter>Audio\OpenAL\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrMessage.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Res\resource.h">
+      <Filter>Editor\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrTask.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FrColDlg.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrGamBld.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrMap.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\FrAbout.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrEvent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Doc\FluJunk.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Doc\FluNotes.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Doc\FluAI.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Doc\Script.txt">
+      <Filter>Doc</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Render\OpenGL\Vertex.glsl">
+      <Filter>Render\OpenGL</Filter>
+    </None>
+    <None Include="Render\OpenGL\Fragment.glsl">
+      <Filter>Render\OpenGL</Filter>
+    </None>
+    <None Include="Editor.ini" />
+    <None Include="Editor\Res\dragitem.cur">
+      <Filter>Editor\Res</Filter>
+    </None>
+    <None Include="Editor\Res\nodrop.cur">
+      <Filter>Editor\Res</Filter>
+    </None>
+    <None Include="GUI\Res\WascoSans9.flf">
+      <Filter>GUI\Res</Filter>
+    </None>
+    <None Include="GUI\Res\Consolas13.flf">
+      <Filter>GUI\Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Editor\Res\edicon.ico">
+      <Filter>Editor\Res</Filter>
+    </Image>
+    <Image Include="GUI\Res\GuiIcons.bmp">
+      <Filter>GUI\Res</Filter>
+    </Image>
+    <Image Include="GUI\Res\Consolas13_0.bmp">
+      <Filter>GUI\Res</Filter>
+    </Image>
+    <Image Include="GUI\Res\WascoSans9_0.bmp">
+      <Filter>GUI\Res</Filter>
+    </Image>
+    <Image Include="Editor\Res\Splash.bmp">
+      <Filter>Editor\Res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FluEd.rc">
+      <Filter>Editor\Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

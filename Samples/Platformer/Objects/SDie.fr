@@ -1,0 +1,4 @@
+BEGIN_RESOURCE FSound SDie
+    FileName = "SDie.wav"
+    Group = "FX"
+END_RESOURCE

@@ -1,0 +1,29 @@
+/*=============================================================================
+    FeaturesEn.txt: List of Fluorine Engine features.
+    By Vlad Gordienko (vladgordienko28@gmail.com)
+=============================================================================*/
+
+-   Convenient TDI(Tabbed Document Interface) based game editor.
+-   Own C/Java style script language.
+-   Build-in script editor with syntax highlight and auto-complete.
+-   Every game object(entity) has own script execution thread, which allows
+        a few types of interruption.
+-   Easy extandable entities system.To make a new one just pick required
+        components. If you need to add behavious also add script.
+-   Tool for script debuging, which allows to inspect each entity in level
+        during a playing.
+-   Nice resource manager, helps to reduce memory ussage.
+-   Own physics engine, with rigid bodies and connectors, such as springs,
+        hinges and ropes.
+-   Support both tile and sprite graphics.
+-   Easy tools to work with tile graphics.
+-   Rectangular-Cylindrical skydome model for creation "dynamic" sky background.
+-   Portal system for making non-Euclidean geometry on level.
+-   Procedural effects of fire, water, plasma and etc.
+-   Images postprocessing.
+-   Dynamic lightsources with different effects.
+-   A few kinds of particle emitters, weather conditions.
+-   Streamed audio player.
+-   AI can: watch, hear, send orders and navigate in level.
+-   Extandable logic system which simular to circuit design.
+-   ...

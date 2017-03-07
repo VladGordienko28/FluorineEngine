@@ -1,0 +1,23 @@
+BEGIN_RESOURCE FScript Grid
+    FileName = "Grid.flu"
+    bHasText = true
+    BEGIN_COMPONENT FModelComponent Base
+            bFixedAngle = true
+            bFixedSize = true
+            Layer = 0.3500
+            Color = #ffffffff
+            bUnlit = true
+            Bitmap = FBitmap::pieces
+            MapXSize = 10
+            MapYSize = 20
+            TileSize = [1.5000; 1.5000]
+            TilesPerU = 4
+            TilesPerV = 4
+    END_COMPONENT
+    BEGIN_COMPONENT FInputComponent Input
+    END_COMPONENT
+    BEGIN_COMPONENT FPainterComponent Painter
+    END_COMPONENT
+    BEGIN_INSTANCE
+    END_INSTANCE
+END_RESOURCE

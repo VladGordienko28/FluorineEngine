@@ -1,0 +1,9 @@
+BEGIN_RESOURCE FScript Camera
+    Group = "System"
+    BEGIN_COMPONENT FCameraComponent CameraComponent
+            Size = [1.0000; 1.0000]
+            Layer = 0.5000
+            FOV = [64.0000; 32.0000]
+            Zoom = 1.0000
+    END_COMPONENT
+END_RESOURCE

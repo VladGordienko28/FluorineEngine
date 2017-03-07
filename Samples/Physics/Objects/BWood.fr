@@ -1,0 +1,7 @@
+BEGIN_RESOURCE FBitmap BWood
+    FileName = "BWood.bmp"
+    UBits = 4
+    VBits = 4
+    Saturation = 1.0000
+    AnimSpeed = 30.0000
+END_RESOURCE

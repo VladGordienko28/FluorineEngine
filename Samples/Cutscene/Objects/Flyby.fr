@@ -1,0 +1,23 @@
+BEGIN_RESOURCE FScript Flyby
+    FileName = "Flyby.flu"
+    Group = "Cinema"
+    bHasText = true
+    BEGIN_COMPONENT FRectComponent Base
+            Size = [3.0000; 3.0000]
+            Layer = 0.8000
+    END_COMPONENT
+    BEGIN_COMPONENT FSpriteComponent Sprite
+            bHidden = true
+            Color = #ffffffff
+            bUnlit = true
+            Bitmap = FBitmap::BSystem
+            Scale = [1.0000; 1.0000]
+            TexCoords = (32.0000; 32.0000; 64.0000; 64.0000)
+    END_COMPONENT
+    BEGIN_COMPONENT FKeyframeComponent Keyframe
+    END_COMPONENT
+    BEGIN_INSTANCE
+            Speed = 10.0000
+            Zoom = 1.0000
+    END_INSTANCE
+END_RESOURCE

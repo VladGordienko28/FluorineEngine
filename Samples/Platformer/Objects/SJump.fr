@@ -1,0 +1,4 @@
+BEGIN_RESOURCE FSound SJump
+    FileName = "SJump.wav"
+    Group = "FX"
+END_RESOURCE

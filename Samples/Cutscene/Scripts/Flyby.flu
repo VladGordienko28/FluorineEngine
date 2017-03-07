@@ -1,0 +1,38 @@
+/**
+ * @Flyby: Flying camera.
+ * @Author: Vlad Gordienko.
+ */
+script Flyby
+{
+public:
+    float       Speed; 
+    bool        bLooped;       
+    float       Zoom;
+
+    bool IsMoving()    
+    {
+        return $Keyframe.Speed != 0.0;
+    }
+    
+    fn Start()
+    {
+        goto @Start;
+    } 
+
+    thread
+    {
+    @Entry:
+        stop;
+        
+    @Start:
+        $Keyframe.Start( Speed, bLooped );    
+        Camera(GetCamera()).Zoom    = Zoom;          
+        while( IsMoving() )
+        {
+            GetCamera().Location = Location;
+            interrupt;            
+        }
+
+    @Stop:
+    }
+}

@@ -1,0 +1,22 @@
+BEGIN_RESOURCE FScript JumpPad
+    FileName = "JumpPad.flu"
+    Group = "Game"
+    bHasText = true
+    BEGIN_COMPONENT FRectComponent Base
+            bFixedAngle = true
+            bFixedSize = true
+            bHashable = true
+            Size = [3.0000; 2.0000]
+            Layer = 0.5000
+    END_COMPONENT
+    BEGIN_COMPONENT FAnimatedSpriteComponent Sprite
+            Color = #ffffffff
+            bUnlit = true
+            Animation = FAnimation::AJumpPad
+            Offset = [0.0000; 0.5000]
+            Scale = [3.0000; 3.0000]
+    END_COMPONENT
+    BEGIN_INSTANCE
+            KickSpeed = 25.0000
+    END_INSTANCE
+END_RESOURCE
